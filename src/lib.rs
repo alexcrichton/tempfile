@@ -5,6 +5,7 @@
 //!
 //! # Design
 //!
+
 //! This crate provides several approaches to creating temporary files and directories.
 //! [`tempfile()`] relies on the OS to remove the temporary file once the last handle is closed.
 //! [`TempDir`] and [`NamedTempFile`] both rely on Rust destructors for cleanup.
